@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chatify from "../../Assets/Projects/chatify.png";
+import agrigabay from "../../Assets/Projects/agrigabay.jfif";
 import pongtrack from "../../Assets/Projects/pongtrack.PNG";
 
 
@@ -20,7 +20,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={agrigabay}
               isBlog={false}
               title="AgriGabay"
               description="Agricultural Tool Mobile Application done using Kotlin. It has four features: Crop Information, Expense Tracker, Crop Converter, and Green Scan AI."
