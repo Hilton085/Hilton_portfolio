@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import pongtrack from "../../Assets/Projects/pongtrack.PNG";
+
 
 function Projects() {
   return (
@@ -25,10 +22,21 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="AgriGabay"
+              description="Agricultural Tool Mobile Application done using Kotlin. It has four features: Crop Information, Expense Tracker, Crop Converter, and Green Scan AI."
+              ghLink="https://github.com/Hilton085/AgriGabay"
+              demoLink="#"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pongtrack}
+              isBlog={false}
+              title="PongTrack"
+              description="Inventory Management System for Pongtao Car Accessories. It is a web application built using Bootstrap for the frontend and Javascript for the backend. It allows users to manage inventory, track sales, and generate reports."
+              ghLink="https://github.com/Hilton085/pongtao-cam"
+              demoLink="#"
             />
           </Col>
 
