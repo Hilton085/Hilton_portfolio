@@ -25,7 +25,30 @@ function Experience() {
           </Card.Body>
         </Card>
       </Col>
+
+      <Col md={6} className="experience-card">
+        <Card className="quote-card-view">
+          <Card.Body>
+            <Card.Title style={{ color: "white" }}>
+              <strong className="purple">Back-end  Developer | PongTrack</strong>
+            </Card.Title>
+            <Card.Subtitle className="mb-2" style={{ color: "white" }}>
+              Thesis | September 2025 - December 2025
+            </Card.Subtitle>
+            <Card.Text style={{ color: "white", textAlign: "justify" }}>
+              <ul style={{ paddingLeft: "1.25rem", marginBottom: 0, textAlign: "justify" }}>
+                <li>Designed and developed a full-stack web application for inventory management and sales tracking using vanilla PHP and JavaScript.</li>
+                <li>Developed backend functionality with MySQLi, handling database connectivity, and full CRUD operations.</li>
+                <li>Architected a relational database to manage inventory, transactions, and reporting data efficiently.</li>
+                <li>Ensured data integrity through input validation and structured data handling on both client and server sides.</li>
+              </ul>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
     </Row>
+
+    
   );
 }
 
