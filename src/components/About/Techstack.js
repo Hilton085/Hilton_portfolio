@@ -12,6 +12,7 @@ import Laravel from "../../Assets/TechIcons/laravel.svg";
 import CSS from "../../Assets/TechIcons/css.svg";
 import HTML from "../../Assets/TechIcons/html.svg";
 import Kotlin from "../../Assets/TechIcons/kotlin.svg";
+import PHP from "../../Assets/TechIcons/php.svg"
 
 
 
@@ -31,6 +32,11 @@ function Techstack() {
     <Col xs={4} md={2} className="tech-icons">
         <img src={Kotlin} alt="kotlin" />
         <div className="tech-icons-text">Kotlin</div>
+      </Col>
+    
+    <Col xs={4} md={2} className="tech-icons">
+        <img src={PHP} alt="php" />
+        <div className="tech-icons-text">PHP</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
